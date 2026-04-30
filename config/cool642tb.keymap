@@ -33,7 +33,7 @@
         };
 
         left {
-            bindings = <&msc SCRL_RIGHT>;
+            bindings = <&msc SCRL_LEFT>;
             key-positions = <30 18>;
         };
     };
