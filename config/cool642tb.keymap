@@ -18,8 +18,23 @@
         compatible = "zmk,combos";
 
         scroll {
-            bindings = <&msc MOVE_Y(5)>;
+            bindings = <&msc SCRL_DOWN>;
             key-positions = <32 31>;
+        };
+
+        up {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <20 19>;
+        };
+
+        right {
+            bindings = <&msc SCRL_RIGHT>;
+            key-positions = <21 33>;
+        };
+
+        left {
+            bindings = <&msc SCRL_RIGHT>;
+            key-positions = <30 18>;
         };
     };
 
@@ -103,7 +118,7 @@
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 LANG2  &lt 1 SPACE  &lt 2 BACKSPACE  &kp LANG1                               &kp ESC
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_move_y>;
         };
 
         FUNCTION {
