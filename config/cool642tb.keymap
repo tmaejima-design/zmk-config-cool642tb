@@ -17,41 +17,9 @@
     combos {
         compatible = "zmk,combos";
 
-        comb1 {
-            bindings = <&kp TAB>;
-            key-positions = <11 10>;
-        };
-
-        comb2 {
-            bindings = <&kp LS(ESCAPE)>;
-            key-positions = <0 1>;
-        };
-
-        comb3 {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <22 23>;
-        };
-
-        comb4 {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
-        };
-
-        comb5 {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <9 8>;
-            timeout-ms = <0>;
-            layers = <2>;
-        };
-
-        MS_BTN1_ {
-            bindings = <&mkp MB1>;
-            key-positions = <38 39>;
-        };
-
-        MS_BTN2_ {
-            bindings = <&mkp MB2>;
-            key-positions = <38 37>;
+        scroll {
+            bindings = <&mkp MCLK>;
+            key-positions = <32 31>;
         };
     };
 
