@@ -162,13 +162,13 @@
 
         ARROW {
             bindings = <
-&kp EXCLAMATION  &kp N2     &kp N3     &kp NUMBER_4  &kp MINUS                      &kp Y                 &kp U                  &kp LS(N8)  &kp LS(N9)  &kp P
-&kp QUESTION     &kp MINUS  &kp MINUS  &kp F7        &kp F8     &none    &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K       &kp UNDER   &kp EQUAL
-&kp N3           &kp N4     &kp N5     &none         &none      &none    &none      &kp N                 &kp M                  &kp COMMA   &kp PERIOD  &kp LCTRL
-&none            &none      &none      &none         &none      &kp TAB  &kp COMMA  &kp PERIOD                                                           &none
+&kp EXCLAMATION  &kp N2     &kp N3     &kp NUMBER_4  &kp MINUS                      &kp Y                 &kp U                  &kp RIGHT_PARENTHESIS  &kp O       &kp P
+&kp QUESTION     &kp MINUS  &kp MINUS  &kp F7        &kp F8     &none    &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K                  &kp UNDER   &kp EQUAL
+&kp N3           &kp N4     &kp N5     &none         &none      &none    &none      &kp N                 &kp M                  &kp COMMA              &kp PERIOD  &kp LCTRL
+&none            &none      &none      &none         &none      &kp TAB  &kp COMMA  &kp PERIOD                                                                      &none
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&rot_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         MOUSE {
