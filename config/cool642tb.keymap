@@ -135,7 +135,7 @@
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 LANG2  &lt 1 SPACE  &lt 2 BACKSPACE  &kp LANG1                               &kp ESC
             >;
 
-            sensor-bindings = <&scroll_move_y>;
+            sensor-bindings = <&rot_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         FUNCTION {
