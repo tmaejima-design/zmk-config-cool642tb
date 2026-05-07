@@ -150,6 +150,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
+sensor-bindings = <&scroll_move_y>;
         };
 
         layer_6 {
