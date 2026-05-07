@@ -96,7 +96,7 @@
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 3 SPACE  &lt 1 SPACE  &lt 2 BACKSPACE  &kp LANG1                               &kp ESC
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_move_y>;
         };
 
         FUNCTION {
@@ -150,7 +150,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
-sensor-bindings = <&scroll_move_y>;
+
+            sensor-bindings = <&scroll_move_y>, <&scroll_move_y>;
         };
 
         layer_6 {
