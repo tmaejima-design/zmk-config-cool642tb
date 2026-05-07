@@ -14,7 +14,29 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        down {
+            bindings = <&msc SCRL_DOWN>;
+            key-positions = <32 31>;
+        };
+
+        up {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <20 19>;
+        };
+
+        left {
+            bindings = <&msc SCRL_LEFT>;
+            key-positions = <18 30>;
+        };
+
+        right {
+            bindings = <&msc SCRL_RIGHT>;
+            key-positions = <8 9>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -91,7 +113,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W           &kp E         &kp R               &kp T                                      &kp Y      &kp U  &kp I      &kp O      &kp P
-&kp A             &kp S           &kp D         &kp F               &kp G        &none        &none            &kp H      &kp J  &lt 5 K    &kp L      &kp ENTER
+&kp A             &kp S           &kp D         &kp F               &kp G        &none        &none            &kp H      &kp J  &kp K      &kp L      &kp ENTER
 &mt LEFT_SHIFT Z  &kp X           &kp C         &kp V               &kp B        &lt 6 SPACE  &none            &kp N      &kp M  &mkp LCLK  &mkp RCLK  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 3 SPACE  &lt 1 SPACE  &lt 2 BACKSPACE  &kp LANG1                               &kp ESC
             >;
