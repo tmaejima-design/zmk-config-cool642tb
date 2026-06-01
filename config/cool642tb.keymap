@@ -92,7 +92,7 @@
 
         // tap-ms下限メモ Yの値で可変: Y(15) <81>, Y(20) <65>, Y(25) <49>
 
-        tap-ms = <20>;
+        tap-ms = <30>;
         label = "scroll_move_y";
     };
 
